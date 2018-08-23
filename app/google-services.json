@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "686506347742",
+    "firebase_url": "https://jaunt-214113.firebaseio.com",
+    "project_id": "jaunt-214113",
+    "storage_bucket": "jaunt-214113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686506347742:android:b9ef250dadbbc974",
+        "android_client_info": {
+          "package_name": "com.example.aditi.jaunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686506347742-d1csfrlvu027ovb65grjepil93vo8g36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aditi.jaunt",
+            "certificate_hash": "dae9f77e136a4ea537848913ef5059a6992bdd93"
+          }
+        },
+        {
+          "client_id": "686506347742-kc6mvctp4v1nfgc0fhrv7tbv93ij68nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5WL9Jc-DOT5xRMNjWOyiCeyu-y18wPNc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686506347742-kc6mvctp4v1nfgc0fhrv7tbv93ij68nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

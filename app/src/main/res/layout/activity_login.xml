@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F2F1"
+    tools:context="com.example.aditi.jaunt.LoginActivity">
+
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/view_flipper"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_marginTop="31dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            app:ccp_defaultNameCode="US" />
+
+        <EditText
+            android:id="@+id/phoneText"
+            android:layout_marginTop="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone Number"
+            android:inputType="phone"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:text="Continue"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_width="170dp"
+        android:layout_height="52dp"
+        android:onClick="next"
+        android:layout_gravity="center_horizontal"
+        android:background="#26A69A"
+        />
+</LinearLayout>

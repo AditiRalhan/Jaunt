@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0F2F1"
+    tools:context="com.example.aditi.jaunt.VerificationActivity">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/view_flipper"
+        />
+
+        <EditText
+            android:id="@+id/codeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Code"
+            android:layout_margin="60dp"
+            android:inputType="number"
+            android:singleLine="true" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Verify"
+        android:textSize="22dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:onClick="verifyCode"
+        android:layout_marginLeft="40dp"
+        android:background="#26A69A"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:text="Resend Code"
+        android:textSize="22dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:onClick="resendcode"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#26A69A"
+        />
+</LinearLayout>
+
+
+</LinearLayout>
